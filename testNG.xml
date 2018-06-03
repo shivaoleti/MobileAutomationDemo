@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+    <listeners>
+	<!-- 	<listener class-name="listener.ExtentReporterNG" /> -->
+	</listeners>
+
+  <test name="Home Page Tests">
+  <classes>
+    <class name="tests.HomePageTests" >
+             <methods>
+            <include name="verifyHomePageItems"/>
+             </methods>
+    </class>
+  </classes>
+</test>
+
+
+
+</suite>
+

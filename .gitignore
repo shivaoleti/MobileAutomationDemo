@@ -1,0 +1,8 @@
+test-output/*
+target/*
+*.html
+.DS_Store
+.idea/*
+*.iml
+Report.json
+src/test/java/output/*.java
